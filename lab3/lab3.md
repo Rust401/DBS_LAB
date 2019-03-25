@@ -305,9 +305,21 @@ create trigger classCount before insert on classroom for each row
       signal sqlstate 'HY000' SET message_text = msg;
     end if;
   end; //
-delimiter;
+delimiter ;
+
+mysql> delimiter ;
+mysql> insert into classroom values ('Packard', '101', '500');
+ERROR 1062 (23000): Duplicate entry 'Packard-101' for key 'PRIMARY'
+mysql> insert into classroom values ('Packard', '1011', '500');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into classroom values ('Packard', '11011', '500');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into classroom values ('Packard1', '11011', '500');
+ERROR 1644 (HY000): The count of classroom is above 6.
 ```
-我定义了这个玩意用来控制classroom中的条目数，但不起效果，而且之后的命令执行都得加上`//`才行,还没搞明白怎么回事。
+插到一定数量之后再插入就会被这个trigger给阻止并打印出message。
 
 
 
