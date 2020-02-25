@@ -1,9 +1,7 @@
 # 数据库系统（2018-2019春夏学期）实验2
 ```shell
 Project Name:   SQL数据定义和操作
-Student Name:   胡兆冬
 Student ID  :   21714069
-Major       :   环境工程
 Email       :   zhaodonghu94@zju.edu.cn
 phone       :   15700080428
 Date        :   2019.03.20
