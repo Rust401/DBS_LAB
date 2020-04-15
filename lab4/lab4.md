@@ -1,8 +1,6 @@
 # 数据库系统（2018-2019春夏学期）实验4
 ```shell
 Project Name:   SQL安全性
-Email       :   zhaodonghu94@zju.edu.cn
-phone       :   15700080428
 Date        :   2019.04.07
 ```
 # 建立表，考察表的生成者拥有表的哪些权限
