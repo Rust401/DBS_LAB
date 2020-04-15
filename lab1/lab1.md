@@ -1,9 +1,6 @@
 # 数据库系统（2018-2019春夏学期）实验1
 ```shell
 Project Name:   数据库系统的安装和使用
-Student ID  :   21714069
-Email       :   zhaodonghu94@zju.edu.cn
-phone       :   15700080428
 Date        :   2019.03.04
 ```
 ## 实验目的
