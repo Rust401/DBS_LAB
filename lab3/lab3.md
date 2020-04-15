@@ -1,9 +1,6 @@
 # 数据库系统（2018-2019春夏学期）实验3
 ```shell
 Project Name:   SQL数据完整性
-Student ID  :   21714069
-Email       :   zhaodonghu94@zju.edu.cn
-phone       :   15700080428
 Date        :   2019.03.20
 ```
 ## 定义若干表，包括primary key, foreign key 和 check 的定义
